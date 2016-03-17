@@ -1,0 +1,13 @@
+New log file opened at Thu Mar 17 22:26:06 CET 2016 by 8436@LieroLarryfier7
+Taking next connection to: 51035
+New client attempting to connect on port: 51036-51035
+  Address = /10.0.0.32:51035
+This client on port 51036 has uuid aa5c5d1a-f56f-460a-9d2b-d8601e390d1b configName activator humanReadableName Activator protocolVersion 3 featureTags Vector()
+Connected Clients: activator-aa5c5d1a-f56f-460a-9d2b-d8601e390d1b
+Taking next connection to: 51035
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 8436@LieroLarryfier7 logs at Thu Mar 17 22:29:06 CET 2016, goodbye.
