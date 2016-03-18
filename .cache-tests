@@ -4,15 +4,15 @@ output mode:
 0 -> multiple
 output directories:
 1 items
-E:\Projekte\baduk\test -> E:\Projekte\baduk\bin
+D:\projects\baduk\test -> D:\projects\baduk\bin
 compile options:
 12 items
 00 -> -javabootclasspath
-01 -> C:\Program Files\Java\jdk1.8.0_72\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_72\jre\lib\ext\zipfs.jar
+01 -> C:\Program Files\Java\jre1.8.0_74\lib\resources.jar;C:\Program Files\Java\jre1.8.0_74\lib\rt.jar;C:\Program Files\Java\jre1.8.0_74\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_74\lib\jce.jar;C:\Program Files\Java\jre1.8.0_74\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_74\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\cldrdata.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\dnsns.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\jaccess.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\jfxrt.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\localedata.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\nashorn.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\sunec.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\sunmscapi.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jre1.8.0_74\lib\ext\zipfs.jar
 02 -> -javaextdirs
 03 ->  
 04 -> -bootclasspath
-05 -> C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+05 -> C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
 06 -> -deprecation
 07 -> -unchecked
 08 -> -encoding
@@ -31,49 +31,55 @@ name hashing:
 1 items
 0 -> false
 products:
-22 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$2.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$3.class
-E:\Projekte\baduk\test\ApplicationSpec.scala -> E:\Projekte\baduk\bin\ApplicationSpec.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$1.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$2.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$3.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$4.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec$$anonfun$5.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\BadukSpec.class
-E:\Projekte\baduk\test\IntegrationSpec.scala -> E:\Projekte\baduk\bin\IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
-E:\Projekte\baduk\test\IntegrationSpec.scala -> E:\Projekte\baduk\bin\IntegrationSpec$$anonfun$1.class
-E:\Projekte\baduk\test\IntegrationSpec.scala -> E:\Projekte\baduk\bin\IntegrationSpec.class
+28 items
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$1.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$2.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec$$anonfun$3.class
+D:\projects\baduk\test\ApplicationSpec.scala -> D:\projects\baduk\bin\ApplicationSpec.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$1.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$2.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$3.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$4.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$5.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$6$$anonfun$apply$mcV$sp$6.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$6.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$7$$anonfun$apply$mcV$sp$7.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$7.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$8$$anonfun$apply$mcV$sp$8.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec$$anonfun$8.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\BadukSpec.class
+D:\projects\baduk\test\IntegrationSpec.scala -> D:\projects\baduk\bin\IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class
+D:\projects\baduk\test\IntegrationSpec.scala -> D:\projects\baduk\bin\IntegrationSpec$$anonfun$1.class
+D:\projects\baduk\test\IntegrationSpec.scala -> D:\projects\baduk\bin\IntegrationSpec.class
 binary dependencies:
 18 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.0.jar
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
-E:\Projekte\baduk\test\ApplicationSpec.scala -> C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\models\Board.class
-E:\Projekte\baduk\test\BadukSpec.scala -> E:\Projekte\baduk\bin\models\Point.class
-E:\Projekte\baduk\test\IntegrationSpec.scala -> C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar
-E:\Projekte\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
-E:\Projekte\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
-E:\Projekte\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
-E:\Projekte\baduk\test\IntegrationSpec.scala -> C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Program Files\Java\jre1.8.0_74\lib\rt.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.0.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
+D:\projects\baduk\test\ApplicationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
+D:\projects\baduk\test\BadukSpec.scala -> C:\Program Files\Java\jre1.8.0_74\lib\rt.jar
+D:\projects\baduk\test\BadukSpec.scala -> C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+D:\projects\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
+D:\projects\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
+D:\projects\baduk\test\BadukSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\models\Board.class
+D:\projects\baduk\test\BadukSpec.scala -> D:\projects\baduk\bin\models\Point.class
+D:\projects\baduk\test\IntegrationSpec.scala -> C:\Program Files\Java\jre1.8.0_74\lib\rt.jar
+D:\projects\baduk\test\IntegrationSpec.scala -> C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar
+D:\projects\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar
+D:\projects\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar
+D:\projects\baduk\test\IntegrationSpec.scala -> C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar
 direct source dependencies:
 0 items
 direct external dependencies:
@@ -91,100 +97,112 @@ inheritance internal dependencies:
 inheritance external dependencies:
 0 items
 class names:
-22 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$2
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$3
-E:\Projekte\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$1
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$2
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$3
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$4
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$5
-E:\Projekte\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5
-E:\Projekte\baduk\test\IntegrationSpec.scala -> IntegrationSpec
-E:\Projekte\baduk\test\IntegrationSpec.scala -> IntegrationSpec$$anonfun$1
-E:\Projekte\baduk\test\IntegrationSpec.scala -> IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
+28 items
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$2
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$3
+D:\projects\baduk\test\ApplicationSpec.scala -> ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$1
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$2
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$3
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$4
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$5
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$6
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$6$$anonfun$apply$mcV$sp$6
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$7
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$7$$anonfun$apply$mcV$sp$7
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$8
+D:\projects\baduk\test\BadukSpec.scala -> BadukSpec$$anonfun$8$$anonfun$apply$mcV$sp$8
+D:\projects\baduk\test\IntegrationSpec.scala -> IntegrationSpec
+D:\projects\baduk\test\IntegrationSpec.scala -> IntegrationSpec$$anonfun$1
+D:\projects\baduk\test\IntegrationSpec.scala -> IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1
 used names:
 0 items
 product stamps:
-22 items
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4.class -> lastModified(1458255320831)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458255320826)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$1.class -> lastModified(1458255320821)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class -> lastModified(1458255320843)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$2.class -> lastModified(1458255320835)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class -> lastModified(1458255320852)
-E:\Projekte\baduk\bin\ApplicationSpec$$anonfun$3.class -> lastModified(1458255320846)
-E:\Projekte\baduk\bin\ApplicationSpec.class -> lastModified(1458255320813)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458255650415)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$1.class -> lastModified(1458255650405)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class -> lastModified(1458255650422)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$2.class -> lastModified(1458255650418)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class -> lastModified(1458255650430)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$3.class -> lastModified(1458255650426)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4.class -> lastModified(1458255650438)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$4.class -> lastModified(1458255650433)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5.class -> lastModified(1458255650447)
-E:\Projekte\baduk\bin\BadukSpec$$anonfun$5.class -> lastModified(1458255650442)
-E:\Projekte\baduk\bin\BadukSpec.class -> lastModified(1458255650394)
-E:\Projekte\baduk\bin\IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458255320973)
-E:\Projekte\baduk\bin\IntegrationSpec$$anonfun$1.class -> lastModified(1458255320967)
-E:\Projekte\baduk\bin\IntegrationSpec.class -> lastModified(1458255320963)
+28 items
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1$$anonfun$apply$mcV$sp$4.class -> lastModified(1458334247654)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458334247651)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$1.class -> lastModified(1458334247645)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class -> lastModified(1458334247664)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$2.class -> lastModified(1458334247658)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class -> lastModified(1458334247674)
+D:\projects\baduk\bin\ApplicationSpec$$anonfun$3.class -> lastModified(1458334247668)
+D:\projects\baduk\bin\ApplicationSpec.class -> lastModified(1458334247638)
+D:\projects\baduk\bin\BadukSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458342105268)
+D:\projects\baduk\bin\BadukSpec$$anonfun$1.class -> lastModified(1458342105257)
+D:\projects\baduk\bin\BadukSpec$$anonfun$2$$anonfun$apply$mcV$sp$2.class -> lastModified(1458342105274)
+D:\projects\baduk\bin\BadukSpec$$anonfun$2.class -> lastModified(1458342105271)
+D:\projects\baduk\bin\BadukSpec$$anonfun$3$$anonfun$apply$mcV$sp$3.class -> lastModified(1458342105282)
+D:\projects\baduk\bin\BadukSpec$$anonfun$3.class -> lastModified(1458342105278)
+D:\projects\baduk\bin\BadukSpec$$anonfun$4$$anonfun$apply$mcV$sp$4.class -> lastModified(1458342105292)
+D:\projects\baduk\bin\BadukSpec$$anonfun$4.class -> lastModified(1458342105286)
+D:\projects\baduk\bin\BadukSpec$$anonfun$5$$anonfun$apply$mcV$sp$5.class -> lastModified(1458342105301)
+D:\projects\baduk\bin\BadukSpec$$anonfun$5.class -> lastModified(1458342105296)
+D:\projects\baduk\bin\BadukSpec$$anonfun$6$$anonfun$apply$mcV$sp$6.class -> lastModified(1458342105309)
+D:\projects\baduk\bin\BadukSpec$$anonfun$6.class -> lastModified(1458342105304)
+D:\projects\baduk\bin\BadukSpec$$anonfun$7$$anonfun$apply$mcV$sp$7.class -> lastModified(1458342105315)
+D:\projects\baduk\bin\BadukSpec$$anonfun$7.class -> lastModified(1458342105312)
+D:\projects\baduk\bin\BadukSpec$$anonfun$8$$anonfun$apply$mcV$sp$8.class -> lastModified(1458342105377)
+D:\projects\baduk\bin\BadukSpec$$anonfun$8.class -> lastModified(1458342105319)
+D:\projects\baduk\bin\BadukSpec.class -> lastModified(1458342105245)
+D:\projects\baduk\bin\IntegrationSpec$$anonfun$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1458334247800)
+D:\projects\baduk\bin\IntegrationSpec$$anonfun$1.class -> lastModified(1458334247797)
+D:\projects\baduk\bin\IntegrationSpec.class -> lastModified(1458334247793)
 source stamps:
 3 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> hash(b4fbee27fd247d33fc4d749c3183eb39b9713e04)
-E:\Projekte\baduk\test\BadukSpec.scala -> hash(c415aec7f5a36750711a8406fb4d245e96182784)
-E:\Projekte\baduk\test\IntegrationSpec.scala -> hash(6c12e7efe4520ac1022a9207cf883f7736396b72)
+D:\projects\baduk\test\ApplicationSpec.scala -> hash(b4fbee27fd247d33fc4d749c3183eb39b9713e04)
+D:\projects\baduk\test\BadukSpec.scala -> hash(83dacc83fdd4e352315e3999e9eba8ddd10a83d9)
+D:\projects\baduk\test\IntegrationSpec.scala -> hash(6c12e7efe4520ac1022a9207cf883f7736396b72)
 binary stamps:
 8 items
-C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1448985452000)
-C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar -> lastModified(1453892150173)
+C:\Program Files\Java\jre1.8.0_74\lib\rt.jar -> lastModified(1455648804676)
+C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> lastModified(1457903712496)
 C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar -> lastModified(1457021201000)
 C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.0.jar -> lastModified(1457021216000)
 C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar -> lastModified(1452019761000)
 C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar -> lastModified(1455756906000)
-E:\Projekte\baduk\bin\models\Board.class -> lastModified(1458255287184)
-E:\Projekte\baduk\bin\models\Point.class -> lastModified(1458254980883)
+D:\projects\baduk\bin\models\Board.class -> lastModified(1458341865464)
+D:\projects\baduk\bin\models\Point.class -> lastModified(1458334243251)
 class names:
 8 items
-C:\eclipse-scala\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.Function0
-C:\Program Files\Java\jdk1.8.0_72\jre\lib\rt.jar -> java.lang.Object
+C:\Program Files\Java\jre1.8.0_74\lib\rt.jar -> java.lang.Object
+C:\Program Files\scala-eclipse\eclipse\plugins\org.scala-lang.scala-library_2.11.7.v20150622-112736-1fbce4612c.jar -> scala.Function0
 C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play-test_2.11\jars\play-test_2.11-2.5.0.jar -> play.api.test.Helpers$
-C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.0.jar -> play.api.http.HttpVerbs
-C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar -> org.scalatest.TestData
-C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar -> org.scalatestplus.play.WsScalaTestClient
-E:\Projekte\baduk\bin\models\Board.class -> models.Board
-E:\Projekte\baduk\bin\models\Point.class -> models.Point
+C:\Users\LieroLarryfier\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.0.jar -> play.api.mvc.Codec$
+C:\Users\LieroLarryfier\.ivy2\cache\org.scalatest\scalatest_2.11\bundles\scalatest_2.11-2.2.6.jar -> org.scalatest.Suite
+C:\Users\LieroLarryfier\.ivy2\cache\org.scalatestplus.play\scalatestplus-play_2.11\jars\scalatestplus-play_2.11-1.5.0-RC1.jar -> org.scalatestplus.play.PlaySpec
+D:\projects\baduk\bin\models\Board.class -> models.Board
+D:\projects\baduk\bin\models\Point.class -> models.Point
 internal apis:
 3 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHArI+RfAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPQXBwbGljYXRpb25TcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADdzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UEC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
-E:\Projekte\baduk\test\BadukSpec.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBwQbL+AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAJQmFkdWtTcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADdzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAA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
-E:\Projekte\baduk\test\IntegrationSpec.scala -> 
-rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAdWBjxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPSW50ZWdyYXRpb25TcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADdzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAACVzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA2dAAPSHRtbFVuaXRGYWN0b3J5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA2c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+AE90AA1zY2FsYXRlc3RwbHVzc3EAfgBPdAAEcGxheXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBQc3EAfgBDdAART25lQnJvd3NlclBlclRlc3RxAH4ASXNxAH4AQ3QADkJyb3dzZXJGYWN0b3J5cQB+AElzcQB+AEN0ABNJbnRlZ3JhdGlvblBhdGllbmNlc3EAfgBHc3EAfgBKdXEAfgBNAAAABHNxAH4AT3QAA29yZ3NxAH4AT3QACXNjYWxhdGVzdHNxAH4AT3QACmNvbmN1cnJlbnRxAH4AWHNxAH4AQ3QACkV2ZW50dWFsbHlxAH4AX3NxAH4AQ3QAFVBhdGllbmNlQ29uZmlndXJhdGlvbnEAfgBfc3EAfgBDdAAdQWJzdHJhY3RQYXRpZW5jZUNvbmZpZ3VyYXRpb25xAH4AX3NxAH4AQ3QAD1NjYWxlZFRpbWVTcGFuc3EAfgBfc3EAfgBDdAAKV2ViQnJvd3NlcnNxAH4AR3NxAH4ASnVxAH4ATQAAAARzcQB+AE90AANvcmdzcQB+AE90AAlzY2FsYXRlc3RzcQB+AE90AAhzZWxlbml1bXEAfgBYc3EAfgBDdAAQT25lU2VydmVyUGVyVGVzdHEAfgBJc3EAfgBDdAAOU2VydmVyUHJvdmlkZXJxAH4ASXNxAH4AQ3QAClN1aXRlTWl4aW5zcQB+AEdzcQB+AEp1cQB+AE0AAAADc3EAfgBPdAADb3Jnc3EAfgBPdAAJc2NhbGF0ZXN0cQB+AFhzcQB+AEN0AAhQbGF5U3BlY3EAfgBJc3EAfgBDdAARV3NTY2FsYVRlc3RDbGllbnRxAH4ASXNxAH4AQ3QADE9wdGlvblZhbHVlc3EAfgCBc3EAfgBDdAAMTXVzdE1hdGNoZXJzcQB+AIFzcQB+AEN0AApFeHBsaWNpdGx5c3EAfgBHc3EAfgBKdXEAfgBNAAAAA3NxAH4AT3QAA29yZ3NxAH4AT3QACXNjYWxhY3RpY3EAfgBYc3EAfgBDdAAMTWF0Y2hlcldvcmRzc3EAfgBHc3EAfgBKdXEAfgBNAAAABHNxAH4AT3QAA29yZ3NxAH4AT3QACXNjYWxhdGVzdHNxAH4AT3QABXdvcmRzcQB+AFhzcQB+AEN0AAlUb2xlcmFuY2VxAH4AknNxAH4AQ3QACFdvcmRTcGVjcQB+AIFzcQB+AEN0AAxXb3JkU3BlY0xpa2VxAH4AgXNxAH4AQ3QAC0RvY3VtZW50aW5ncQB+AIFzcQB+AEN0AAhBbGVydGluZ3EAfgCBc3EAfgBDdAAJTm90aWZ5aW5ncQB+AIFzcQB+AEN0AAlJbmZvcm1pbmdxAH4AgXNxAH4AQ3QAB0NhblZlcmJxAH4Am3NxAH4AQ3QACE11c3RWZXJicQB+AJtzcQB+AEN0AApTaG91bGRWZXJicQB+AJtzcQB+AEN0ABBUZXN0UmVnaXN0cmF0aW9ucQB+AIFzcQB+AEN0AAVTdWl0ZXEAfgCBc3EAfgBDdAAMU2VyaWFsaXphYmxlc3EAfgBHc3EAfgBKdXEAfgBNAAAAA3NxAH4AT3QABGphdmFzcQB+AE90AAJpb3EAfgBYc3EAfgBDdAANQWJzdHJhY3RTdWl0ZXEAfgCBc3EAfgBDdAAKQXNzZXJ0aW9uc3EAfgCBc3EAfgBDdAAMVHJpcGxlRXF1YWxzcQB+AJJzcQB+AEN0ABNUcmlwbGVFcXVhbHNTdXBwb3J0cQB+AJJzcQB+AEN0AAZPYmplY3RzcQB+AEdzcQB+AEp1cQB+AE0AAAADc3EAfgBPcQB+AMJzcQB+AE90AARsYW5ncQB+AFhzcQB+AEN0AANBbnlzcQB+AEdzcQB+AEp1cQB+AE0AAAACc3EAfgBPdAAFc2NhbGFxAH4AWHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAABzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAVOGykGSdXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAcTAAPc291cmNlRGlyZWN0b3J5cQB+ABx4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3R1cgACW0Ks8xf4BghU4AIAAHhwAAAAFGwS5+/kUgrBAiqSB8+IP3c2OWty
+D:\projects\baduk\test\ApplicationSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHArI+RfAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPQXBwbGljYXRpb25TcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AMXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AMABwc3EAfgA1c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AOXN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
+D:\projects\baduk\test\BadukSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBwQbL+AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAJQmFkdWtTcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgAwAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgAVTAAJaW5oZXJpdGVkcQB+ABVMAAdwYXJlbnRzcQB+ABV4cQB+ADdzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXEAfgAQAAAAAHBzcQB+ADABdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAA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
+D:\projects\baduk\test\IntegrationSpec.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAdWBjxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+ABV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAPSW50ZWdyYXRpb25TcGVjdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAACdAAnc2NhbGEucmVmbGVjdC5tYWNyb3MuaW50ZXJuYWwubWFjcm9JbXBsdAAQc2NhbGEuZGVwcmVjYXRlZHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsO5FPEfRFTMkCAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AMXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AMABwc3EAfgA1c3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+ABVMAAlpbmhlcml0ZWRxAH4AFUwAB3BhcmVudHNxAH4AFXhxAH4AOXNxAH4AMABwc3EAfgA1dXEAfgAQAAAAAHNxAH4AMABwc3EAfgA1dXEAfgAQAAAAAHNxAH4AMABwc3EAfgA1dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAACVzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+ABxMAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgA4dAAPSHRtbFVuaXRGYWN0b3J5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgA4c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4AHHhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+AFV0AA1zY2FsYXRlc3RwbHVzc3EAfgBVdAAEcGxheXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgBWc3EAfgBJdAART25lQnJvd3NlclBlclRlc3RxAH4AT3NxAH4ASXQADkJyb3dzZXJGYWN0b3J5cQB+AE9zcQB+AEl0ABNJbnRlZ3JhdGlvblBhdGllbmNlc3EAfgBNc3EAfgBQdXEAfgBTAAAABHNxAH4AVXQAA29yZ3NxAH4AVXQACXNjYWxhdGVzdHNxAH4AVXQACmNvbmN1cnJlbnRxAH4AXnNxAH4ASXQACkV2ZW50dWFsbHlxAH4AZXNxAH4ASXQAFVBhdGllbmNlQ29uZmlndXJhdGlvbnEAfgBlc3EAfgBJdAAdQWJzdHJhY3RQYXRpZW5jZUNvbmZpZ3VyYXRpb25xAH4AZXNxAH4ASXQAD1NjYWxlZFRpbWVTcGFuc3EAfgBlc3EAfgBJdAAKV2ViQnJvd3NlcnNxAH4ATXNxAH4AUHVxAH4AUwAAAARzcQB+AFV0AANvcmdzcQB+AFV0AAlzY2FsYXRlc3RzcQB+AFV0AAhzZWxlbml1bXEAfgBec3EAfgBJdAAQT25lU2VydmVyUGVyVGVzdHEAfgBPc3EAfgBJdAAOU2VydmVyUHJvdmlkZXJxAH4AT3NxAH4ASXQAClN1aXRlTWl4aW5zcQB+AE1zcQB+AFB1cQB+AFMAAAADc3EAfgBVdAADb3Jnc3EAfgBVdAAJc2NhbGF0ZXN0cQB+AF5zcQB+AEl0AAhQbGF5U3BlY3EAfgBPc3EAfgBJdAARV3NTY2FsYVRlc3RDbGllbnRxAH4AT3NxAH4ASXQADE9wdGlvblZhbHVlc3EAfgCHc3EAfgBJdAAMTXVzdE1hdGNoZXJzcQB+AIdzcQB+AEl0AApFeHBsaWNpdGx5c3EAfgBNc3EAfgBQdXEAfgBTAAAAA3NxAH4AVXQAA29yZ3NxAH4AVXQACXNjYWxhY3RpY3EAfgBec3EAfgBJdAAMTWF0Y2hlcldvcmRzc3EAfgBNc3EAfgBQdXEAfgBTAAAABHNxAH4AVXQAA29yZ3NxAH4AVXQACXNjYWxhdGVzdHNxAH4AVXQABXdvcmRzcQB+AF5zcQB+AEl0AAlUb2xlcmFuY2VxAH4AmHNxAH4ASXQACFdvcmRTcGVjcQB+AIdzcQB+AEl0AAxXb3JkU3BlY0xpa2VxAH4Ah3NxAH4ASXQAC0RvY3VtZW50aW5ncQB+AIdzcQB+AEl0AAhBbGVydGluZ3EAfgCHc3EAfgBJdAAJTm90aWZ5aW5ncQB+AIdzcQB+AEl0AAlJbmZvcm1pbmdxAH4Ah3NxAH4ASXQAB0NhblZlcmJxAH4AoXNxAH4ASXQACE11c3RWZXJicQB+AKFzcQB+AEl0AApTaG91bGRWZXJicQB+AKFzcQB+AEl0ABBUZXN0UmVnaXN0cmF0aW9ucQB+AIdzcQB+AEl0AAVTdWl0ZXEAfgCHc3EAfgBJdAAMU2VyaWFsaXphYmxlc3EAfgBNc3EAfgBQdXEAfgBTAAAAA3NxAH4AVXQABGphdmFzcQB+AFV0AAJpb3EAfgBec3EAfgBJdAANQWJzdHJhY3RTdWl0ZXEAfgCHc3EAfgBJdAAKQXNzZXJ0aW9uc3EAfgCHc3EAfgBJdAAMVHJpcGxlRXF1YWxzcQB+AJhzcQB+AEl0ABNUcmlwbGVFcXVhbHNTdXBwb3J0cQB+AJhzcQB+AEl0AAZPYmplY3RzcQB+AE1zcQB+AFB1cQB+AFMAAAADc3EAfgBVcQB+AMhzcQB+AFV0AARsYW5ncQB+AF5zcQB+AEl0AANBbnlzcQB+AE1zcQB+AFB1cQB+AFMAAAACc3EAfgBVdAAFc2NhbGFxAH4AXnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFTi36bMnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4AHEwAD3NvdXJjZURpcmVjdG9yeXEAfgAceHB0ABVEOlxwcm9qZWN0c1xiYWR1a1xiaW50ABZEOlxwcm9qZWN0c1xiYWR1a1x0ZXN0dXIAAltCrPMX+AYIVOACAAB4cAAAABRsEufv5FIKwQIqkgfPiD93Njlrcg==
 external apis:
 0 items
 source infos:
 3 items
-E:\Projekte\baduk\test\ApplicationSpec.scala -> 
+D:\projects\baduk\test\ApplicationSpec.scala -> 
 AAAAAAAAAAA=
-E:\Projekte\baduk\test\BadukSpec.scala -> 
+D:\projects\baduk\test\BadukSpec.scala -> 
 AAAAAAAAAAA=
-E:\Projekte\baduk\test\IntegrationSpec.scala -> 
+D:\projects\baduk\test\IntegrationSpec.scala -> 
 AAAAAAAAAAA=
 compilations:
-29 items
+38 items
 00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4Z+ftR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
 01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4Z/ONR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
 02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4Z/vWp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
@@ -214,3 +232,12 @@ compilations:
 26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4bKzqJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
 27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4bMQMp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
 28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4bPVWl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUU6XFByb2pla3RlXGJhZHVrXGJpbnQAFkU6XFByb2pla3RlXGJhZHVrXHRlc3Q=
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4t+mzJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4ueWTl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4ue+0d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+32 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4vz2gJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+33 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4vz6tl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+34 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4v1CZd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+35 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4v1vrR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+36 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4v1+351cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
+37 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABU4v2gat1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAFUQ6XHByb2plY3RzXGJhZHVrXGJpbnQAFkQ6XHByb2plY3RzXGJhZHVrXHRlc3Q=
