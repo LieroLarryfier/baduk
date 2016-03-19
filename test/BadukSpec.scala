@@ -38,7 +38,7 @@ class BadukSpec extends PlaySpec {
   }
   
   
-  "When placing many stones on board, board" must {
+  "Placing many stones on board" must {
     "contain the stones" in {
       val board = new Board(6)
       board.placeManyStones('w', List(new Point(2,3), new Point(3,2), new Point(4,3), new Point(3,4)))
@@ -48,54 +48,98 @@ class BadukSpec extends PlaySpec {
       board.getColor(3, 4) mustBe ('w')
     }    
   }
+    
   
-  "After placing a stone, the board" must {
-    "contain the stone" in {
-      val board = new Board(6)
-      board.placeStone('w', 3, 3)
-      board.getColor(3, 3) mustBe ('w')
+  "Place stone" when {
+    
+    "board is empty" in {
+      val board = new Board(5)
+      board.placeStone('w', 2, 2)
+      board.getColor(2, 2) mustBe ('w')
     }    
-  }
-  
-  "Placing a stone over another stone, board" must {
-      val board = new Board(6)
-      board.placeStone('w', 3, 3)
-    "contain only the other stone" in {
-      
-      board.placeStone('b', 3, 3) must include ("not empty")
-      board.getColor(3, 3) mustBe ('w')
+    
+    "legal move" in {
+      val board = new Board(5)
+      board.placeStone('w', new Point(2, 2))
+      board.placeStone('b', new Point(2, 3))
+      board.getColor(2, 2) mustBe ('w')
+      board.getColor(2, 3) mustBe ('b')
     }    
-  }
-  
-  "When placing a next to another stone, board" must {
-    "contain the other stone" in {
-      val board = new Board(6)
-      board.placeStone('w', new Point(3, 3))
-      board.placeStone('b', new Point(3, 4))
-      board.getColor(3, 4) mustBe ('b')
-    }    
-  }
-  
-  
-  "When placing a stone to no liberties, board" must {
-    "contain only the other stones" in {
-      val board = new Board(6)
-      board.placeManyStones('w', List(new Point(2,3), new Point(3,2), new Point(4,3), new Point(3,4)))
-      board.placeStone('b', 3, 3) must include ("no liberties")
+    
+    "in a hole" in {
+      val board = new Board(5)
+      board.placeManyStones('b', List(new Point(1,2), new Point(1,3), new Point(2,1), new Point(3,2), new Point(3,3)))
+      board.placeManyStones('w', List(new Point(1,4), new Point(2,3), new Point(2,4), new Point(3,4)))
+      board.printBoard
+      board.placeStone('w', new Point(2,2)) must include ("OK")
+      board.getColor(1, 2) mustBe ('b')
+      board.getColor(1, 3) mustBe ('b')
+      board.getColor(2, 1) mustBe ('b')
+      board.getColor(3, 2) mustBe ('b')
+      board.getColor(3, 3) mustBe ('b')
+      board.getColor(1, 4) mustBe ('w')
       board.getColor(2, 3) mustBe ('w')
-      board.getColor(3, 2) mustBe ('w')
-      board.getColor(4, 3) mustBe ('w')
+      board.getColor(2, 4) mustBe ('w')
       board.getColor(3, 4) mustBe ('w')
-      board.getColor(3, 3) must not be ('b')
-    }    
+      board.getColor(2, 2) must be ('w')
+    }
   }
   
-  "A Stone" should {
-    "be captured when no liberties" in {
+  
+  "Don't place stone" when {
+    
+    "point is not empty" in {
+      val board = new Board(5)
+      board.placeStone('w', 2, 2)
+      board.placeStone('b', 2, 2) must include ("not empty")
+      board.getColor(2, 2) mustBe ('w')
+    } 
+    
+    "no liberties" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,2), new Point(2,1), new Point(3,2), new Point(2,3)))
+      board.placeStone('b', 2, 2) must include ("no liberties")
+      board.getColor(1, 2) mustBe ('w')
+      board.getColor(2, 1) mustBe ('w')
+      board.getColor(3, 2) mustBe ('w')
+      board.getColor(2, 3) mustBe ('w')
+      board.getColor(2, 2) must be (0)
+    }
+    
+    "no liberties in the corner" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,0), new Point(0,1)))
+      board.placeStone('b', 0, 0) must include ("no liberties")
+      board.getColor(1, 0) mustBe ('w')
+      board.getColor(0, 1) mustBe ('w')
+      board.getColor(0, 0) must be (0)
+    }
+    
+    "no liberties, even when to own stone" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,2), new Point(1,3), new Point(2,1), new Point(2,4), new Point(3,2), new Point(3,3)))
+      board.placeManyStones('b', List(new Point(2,3)))
+      board.placeStone('b', 2, 2) must include ("no liberties")
+      board.getColor(1, 2) mustBe ('w')
+      board.getColor(1, 3) mustBe ('w')
+      board.getColor(2, 1) mustBe ('w')
+      board.getColor(2, 4) mustBe ('w')
+      board.getColor(3, 2) mustBe ('w')
+      board.getColor(3, 3) mustBe ('w')
+      board.getColor(2, 2) must be (0)
+      board.getColor(2, 3) must be ('b')
+    }   
+    
+  }
+    
+  "Capture a stone" when {
+    
+    "in the middle of the board" in {
+      
       val board = new Board(5)
       board.placeManyStones('w', List(new Point(1,2), new Point(2,1), new Point(3,2)))
-      board.placeStone('b', new Point(2,2))
-      board.placeStone('w', new Point(2,3))
+      board.placeManyStones('b', List(new Point(2,2)))
+      board.placeStone('w', new Point(2,3)) must include ("OK")
       board.getColor(1, 2) mustBe ('w')
       board.getColor(3, 2) mustBe ('w')
       board.getColor(2, 3) mustBe ('w')
@@ -103,15 +147,83 @@ class BadukSpec extends PlaySpec {
       board.getColor(2, 2) must be (0)
     }
     
-  }
-  
-  "check Liberties" must {
-    "terminate" in {
+    "in the corner of the board" in {
+    
       val board = new Board(5)
-      board.placeManyStones('w', List(new Point(1,2), new Point(1,1), new Point(2,1)))
-      board.checkLiberties('w', new Point(1,1))
+      board.placeManyStones('w', List(new Point(3,4)))
+      board.placeManyStones('b', List(new Point(4,4)))
+      board.placeStone('w', new Point(4,3)) must include ("OK")
+      board.getColor(4, 3) mustBe ('w')
+      board.getColor(3, 4) mustBe ('w')
+      board.getColor(4, 4) must be (0)
     }
   }
   
+  "Capture stones" when {
+    
+    "in the middle of the board" in {
+    
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(2,2), new Point(2,3), new Point(3,3)))
+      board.placeManyStones('b', List(new Point(1,2), new Point(1,3), new Point(2,4), new Point(3,2), new Point(3,4), new Point(4,3)))
+      board.placeStone('b', new Point(2,1)) must include ("OK")
+      board.getColor(1, 2) mustBe ('b')
+      board.getColor(1, 3) mustBe ('b')
+      board.getColor(2, 4) mustBe ('b')
+      board.getColor(3, 2) mustBe ('b')
+      board.getColor(3, 4) mustBe ('b')
+      board.getColor(4, 3) mustBe ('b')
+      board.getColor(2, 1) mustBe ('b')
+      board.getColor(2, 3) mustBe (0)
+      board.getColor(3, 3) mustBe (0)
+      board.getColor(2, 2) must be (0)
+      
+    }
+    
+    "on the edge of the board" in {
+      
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(0,4), new Point(1,4), new Point(2,4), new Point(3,4), new Point(4,4)))
+      board.placeManyStones('b', List(new Point(1,3), new Point(2,3), new Point(3,3), new Point(4,3)))
+      board.placeStone('b', new Point(0,3)) must include ("OK")
+      board.getColor(0, 3) must be ('b')
+      board.getColor(1, 3) must be ('b')
+      board.getColor(2, 3) must be ('b')
+      board.getColor(3, 3) must be ('b')
+      board.getColor(4, 3) must be ('b')
+      board.getColor(0, 4) must be (0)
+      board.getColor(1, 4) must be (0)
+      board.getColor(2, 4) must be (0)
+      board.getColor(3, 4) must be (0)
+      board.getColor(4, 4) must be (0)
+    }
+  }
+  
+  
+  
+  "MaybeCapture" should {
+    "return number of captured stones" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,2), new Point(2,1), new Point(3,2), new Point(2,3)))
+      board.placeManyStones('b', List(new Point(2,2)))
+      board.maybeCapture(new Point(2,2)) must be (1)
+    }
+  }
+  
+  "A stone" must {
+    "have liberties" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,2), new Point(1,1), new Point(2,1)))
+      board.hasLiberties('w', new Point(1,1), board.playfield.clone()) must be (true)
+    }
+  }
+  
+  "A group" must {
+    "be removed" in {
+      val board = new Board(5)
+      board.placeManyStones('w', List(new Point(1,2), new Point(1,1), new Point(2,1), new Point(3,3)))
+      board.removeStones('w', new Point(1,1)) must be (3)
+    }
+  }
   
 }

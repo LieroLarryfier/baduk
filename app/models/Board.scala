@@ -14,7 +14,7 @@ class Board(size: Int) {
     if ( playfield(x)(y) == 0 ) {
       
       var neighbours = getNeighbours(new Point(x,y))
-      var neighbourColors = new Array[Char](4)
+      var neighbourColors = new Array[Char](neighbours.length)
       var i = 0
      
       if (!neighbours.isEmpty) {
@@ -23,11 +23,16 @@ class Board(size: Int) {
           neighbourColors(i) = getColor(a)
           i = i + 1
           }
-        }
+      }
       if (neighbourColors.forall(b => b == c) || neighbourColors.exists(b => b == 0)) {
           
         playfield(x)(y) = c
-        "OK: " + c + " placed on " + x + "," + y
+        
+        if (x > 0)     maybeCapture(new Point(x-1,y));
+	      if (y > 0)     maybeCapture(new Point(x,y-1));
+	      if (x < size-1) maybeCapture(new Point(x+1,y));
+	      if (y < size-1) maybeCapture(new Point(x,y+1));
+	      "OK: " + c + " placed on " + x + "," + y
       } else {
         "ER: " + c + " not placed on " + x + "," + y + " (no liberties)"
       }
@@ -37,20 +42,51 @@ class Board(size: Int) {
     }
   }
   
-  def checkLiberties(col: Char, p: Point) : Boolean = {
-    println("Start:" + p.x + "," + p.y)
-    val visited = List[Point]()
-    p :: visited
-    for (n <- getNeighbours(p)) {
-      var nCol = getColor(n)
-      if (nCol == col && !visited.contains(n)) {
-        checkLiberties(col, n)
-        println(n.x + "," + n.y)
-      }
-    }
-    
-    true
+  def maybeCapture(p: Point) : Int = {
+    val x = p.x;
+    val y = p.y;
+  if (playfield(x)(y) != 0) {
+    var alive = hasLiberties(playfield(x)(y), p, playfield.map(_.clone));
+    if (!alive)
+      return removeStones(playfield(x)(y),p);
   }
+  return 0;
+}
+  
+  def hasLiberties(col: Char, p: Point, playfieldCopy: Array[Array[Char]]) : Boolean = {
+    val x = p.x
+    val y = p.y
+    if (playfieldCopy(x)(y) == 0)
+      return true;	
+    else if (playfieldCopy(x)(y) != col)
+      return false;
+    else {
+      playfieldCopy(x)(y) = 's'; /* avoid looping */
+      if (x > 0     && hasLiberties(col,new Point(x-1,y),playfieldCopy)) return true;
+      if (y > 0     && hasLiberties(col,new Point(x,y-1),playfieldCopy)) return true;
+      if (x < size-1 && hasLiberties(col,new Point(x+1,y),playfieldCopy)) return true;
+      if (y < size-1 && hasLiberties(col,new Point(x,y+1),playfieldCopy)) return true;
+      return false;
+    }
+  }
+  
+  def removeStones(col: Char, p: Point) : Int = {
+    val x = p.x
+    val y = p.y
+    
+    if (playfield(x)(y) != col)
+    return 0;
+  else {
+    var count = 1;
+    playfield(x)(y) = 0;
+    if (x > 0)     count += removeStones(col,new Point(x-1,y));
+    if (y > 0)     count += removeStones(col,new Point(x,y-1));
+    if (x < size-1) count += removeStones(col,new Point(x+1,y));
+    if (y < size-1) count += removeStones(col, new Point(x,y+1));
+    return count;
+  }
+}  
+  
   
   def placeManyStones(c: Char, positions: List[Point]) {
     for( pos <- positions ) {
@@ -77,7 +113,7 @@ class Board(size: Int) {
       neighbours(0) = new Point(px-1,py)
     }
     
-    if ((px + 1) >= playfield(0).length) {
+    if ((px + 1) > size-1) {
       neighbours(1) = null
     } else {
       neighbours(1) = new Point(px+1,py)
@@ -89,7 +125,7 @@ class Board(size: Int) {
       neighbours(2) = new Point(px,py-1)
     }
     
-    if ((py + 1) >= playfield(0).length) {
+    if ((py + 1) > size-1) {
       neighbours(3) = null
     } else {
       neighbours(3) = new Point(px,py+1)
@@ -97,6 +133,10 @@ class Board(size: Int) {
     
     neighbours.filter(_ != null)
     
+  }
+  
+  def printBoard {
+    println(playfield.deep.mkString("\n"))
   }
   
 }
