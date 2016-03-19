@@ -70,7 +70,6 @@ class BadukSpec extends PlaySpec {
       val board = new Board(5)
       board.placeManyStones('b', List(new Point(1,2), new Point(1,3), new Point(2,1), new Point(3,2), new Point(3,3)))
       board.placeManyStones('w', List(new Point(1,4), new Point(2,3), new Point(2,4), new Point(3,4)))
-      board.printBoard
       board.placeStone('w', new Point(2,2)) must include ("OK")
       board.getColor(1, 2) mustBe ('b')
       board.getColor(1, 3) mustBe ('b')
@@ -119,6 +118,7 @@ class BadukSpec extends PlaySpec {
       val board = new Board(5)
       board.placeManyStones('w', List(new Point(1,2), new Point(1,3), new Point(2,1), new Point(2,4), new Point(3,2), new Point(3,3)))
       board.placeManyStones('b', List(new Point(2,3)))
+      board.printBoard
       board.placeStone('b', 2, 2) must include ("no liberties")
       board.getColor(1, 2) mustBe ('w')
       board.getColor(1, 3) mustBe ('w')
@@ -206,7 +206,7 @@ class BadukSpec extends PlaySpec {
       val board = new Board(5)
       board.placeManyStones('w', List(new Point(1,2), new Point(2,1), new Point(3,2), new Point(2,3)))
       board.placeManyStones('b', List(new Point(2,2)))
-      board.maybeCapture(new Point(2,2)) must be (1)
+      board.maybeCapture(board.playfield, new Point(2,2)) must be (1)
     }
   }
   
@@ -222,7 +222,7 @@ class BadukSpec extends PlaySpec {
     "be removed" in {
       val board = new Board(5)
       board.placeManyStones('w', List(new Point(1,2), new Point(1,1), new Point(2,1), new Point(3,3)))
-      board.removeStones('w', new Point(1,1)) must be (3)
+      board.removeStones('w', new Point(1,1), board.playfield.clone()) must be (3)
     }
   }
   

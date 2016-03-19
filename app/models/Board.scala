@@ -2,7 +2,7 @@ package models
 
 class Board(size: Int) {
   
-  val playfield = Array.ofDim[Char](size,size)
+  var playfield = Array.ofDim[Char](size,size)
   
   def placeStone(c: Char, x: Int, y: Int) : String = {
     placeStone(c, new Point(x,y))
@@ -13,42 +13,38 @@ class Board(size: Int) {
     val y = p.y
     if ( playfield(x)(y) == 0 ) {
       
-      var neighbours = getNeighbours(new Point(x,y))
-      var neighbourColors = new Array[Char](neighbours.length)
-      var i = 0
-     
-      if (!neighbours.isEmpty) {
-        for ( a <- neighbours ) {
-          
-          neighbourColors(i) = getColor(a)
-          i = i + 1
-          }
-      }
-      if (neighbourColors.forall(b => b == c) || neighbourColors.exists(b => b == 0)) {
-          
-        playfield(x)(y) = c
+      
+        var checkBoard = playfield.map(_.clone)
+        checkBoard(x)(y) = c
+	      if (!hasLiberties(c, p, checkBoard)) {
+	        return "ER: " + c + " not placed on " + x + "," + y + " (no liberties)"
+	        
+	      } else {
+        val newBoard = playfield.map(_.clone)
+        newBoard(x)(y) = c
         
-        if (x > 0)     maybeCapture(new Point(x-1,y));
-	      if (y > 0)     maybeCapture(new Point(x,y-1));
-	      if (x < size-1) maybeCapture(new Point(x+1,y));
-	      if (y < size-1) maybeCapture(new Point(x,y+1));
-	      "OK: " + c + " placed on " + x + "," + y
-      } else {
-        "ER: " + c + " not placed on " + x + "," + y + " (no liberties)"
-      }
-     
+        if (x > 0)     maybeCapture(newBoard, new Point(x-1,y));
+	      if (y > 0)     maybeCapture(newBoard, new Point(x,y-1));
+	      if (x < size-1) maybeCapture(newBoard, new Point(x+1,y));
+	      if (y < size-1) maybeCapture(newBoard, new Point(x,y+1));
+	      
+	      
+	        playfield = newBoard
+	        "OK: " + c + " placed on " + x + "," + y  
+	      }   
     } else {
        "ER: " + c + " not placed on " + x + "," + y + " (not empty)"
     }
   }
   
-  def maybeCapture(p: Point) : Int = {
+  def maybeCapture(newBoard: Array[Array[Char]], p: Point) : Int = {
     val x = p.x;
     val y = p.y;
-  if (playfield(x)(y) != 0) {
-    var alive = hasLiberties(playfield(x)(y), p, playfield.map(_.clone));
+  if (newBoard(x)(y) != 0) {
+    var checkBoard = newBoard.map(_.clone)
+    var alive = hasLiberties(newBoard(x)(y), p, checkBoard);
     if (!alive)
-      return removeStones(playfield(x)(y),p);
+      return removeStones(newBoard(x)(y),p, newBoard);
   }
   return 0;
 }
@@ -70,20 +66,21 @@ class Board(size: Int) {
     }
   }
   
-  def removeStones(col: Char, p: Point) : Int = {
+  def removeStones(col: Char, p: Point, newBoard: Array[Array[Char]]) : Int = {
     val x = p.x
     val y = p.y
     
-    if (playfield(x)(y) != col)
-    return 0;
+    if (newBoard(x)(y) != col) {
+     0
+    }
   else {
     var count = 1;
-    playfield(x)(y) = 0;
-    if (x > 0)     count += removeStones(col,new Point(x-1,y));
-    if (y > 0)     count += removeStones(col,new Point(x,y-1));
-    if (x < size-1) count += removeStones(col,new Point(x+1,y));
-    if (y < size-1) count += removeStones(col, new Point(x,y+1));
-    return count;
+    newBoard(x)(y) = 0;
+    if (x > 0)     count += removeStones(col,new Point(x-1,y), newBoard);
+    if (y > 0)     count += removeStones(col,new Point(x,y-1), newBoard);
+    if (x < size-1) count += removeStones(col,new Point(x+1,y), newBoard);
+    if (y < size-1) count += removeStones(col, new Point(x,y+1), newBoard);
+    count
   }
 }  
   
@@ -136,7 +133,7 @@ class Board(size: Int) {
   }
   
   def printBoard {
-    println(playfield.deep.mkString("\n"))
+    print(playfield.map(_.mkString("|")).mkString("|\n|"))
   }
   
 }
